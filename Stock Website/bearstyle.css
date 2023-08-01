@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:fixed;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 0, 0, 0.436);
+
+    text-align: center;
+    height: 100vh;
+}
+
+h1{
+    color: white;
+    font-size: 1000%;
+}
+
+h2{
+    color: darkred;
+    font-size: 2000%;
+}
+
+.submitbtn{
+    font-size: 350%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding:1%;
+    background-image: linear-gradient(purple, purple, blue);
+    cursor: pointer;
+}

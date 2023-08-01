@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:fixed;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 128, 0, 0.436) 50% , rgba(255, 0, 0, 0.436) 50%);
+
+   text-align: center;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 1000%;
+}
+
+p{
+    text-align: center;
+    font-size: 400%;
+}
+
+a{
+    text-align: center;
+    font-size: 400%;
+
+}
+
+hr{
+    border:3px solid black;
+}
+
+.submitbtn{
+    font-size: 150%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding:1%;
+    background-image: linear-gradient(purple, purple, blue);
+    cursor: pointer;
+}

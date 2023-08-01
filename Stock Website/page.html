@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stock Analyzer</title>
+</head>
+<body>
+
+    
+
+    <div class="container">
+
+        <h1>Stock Analyzer</h1>
+        <hr>
+        <br>
+
+        <div class="searchdiv">
+            <input id="search" type="text" class="search" placeholder="Symbol"><br><br>
+            <input type="number" class="currentprice" id="currentprice" placeholder="Current Trading Price"><br><br>
+            <input type="number" placeholder="Historical average price" class="historicalaverage" id="historicalaverage"><br><br>
+            <input type="number" placeholder="Historical volatility" class="historicalvolatility" id="historicalvolatility"><br><br>
+            <input type="number" placeholder="Implied volatility" class="impliedvolatility" id="impliedvolatility"><br><br>
+            <center><button class="submitbtn" id="submitbtn" onclick="bullbear()">Submit</button><br><br>
+            <a href="documentation.html"><button class="submitbtn">Back to Documentation</button></a>
+            </center>
+        </div>
+
+        
+    </div>
+    
+
+
+    <script src="backend.js"></script>
+</body>
+</html>

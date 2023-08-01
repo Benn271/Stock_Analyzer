@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:fixed;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 128, 0, 0.436) 50% , rgba(255, 0, 0, 0.436) 50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 500%;
+}
+
+hr{
+    border:3px solid black;
+}
+
+.container{
+    display:flexbox;
+    height:80vh;
+    width:50vh;
+    justify-content: center;
+    border:5px solid black;
+    border-radius: 20px;
+
+}
+
+.searchdiv{
+    height: 10%;
+    display: flexbox;
+}
+
+
+.search{
+    height:100%;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 200%;
+    border:2px solid black;
+}
+
+.currentprice{
+    height:100%;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 200%;
+    border:2px solid black;
+}
+
+.historicalaverage{
+    height:100%;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 200%;
+    border:2px solid black;
+}
+
+.historicalvolatility{
+    height:100%;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 200%;
+    border:2px solid black;
+}
+
+.impliedvolatility{
+    height:100%;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 200%;
+    border:2px solid black;
+}
+
+.submitbtn{
+    font-size: 350%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding:1%;
+    background-image: linear-gradient(purple, purple, blue);
+    cursor: pointer;
+}
+
+
+
