@@ -1,2 +1,1 @@
-# Stock_Analyzer
-This website will take the informaiton you give to and meake a mathmatical prediction on wether the stock will be bullish or bearish.
+Do not enter any special characters such as $, %, etc. Letters, numbers and decimals are the only characters permitted. This is because it is a general stock analyzer that will take the information you give to make a mathematical decision on if the stock given is potentially bullish or bearish. It is ultimately your decision to buy or sell this stock. I am not responsible for any loses that may occur.
